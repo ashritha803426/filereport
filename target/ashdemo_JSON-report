@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Registered user access track the ordered item in DemoWebshop",
+        "description": "",
+        "id": "bdc-validation-on-demowebshop;registered-user-access-track-the-ordered-item-in-demowebshop",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 804200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user has already placed an order for his favorite item",
+            "match": {
+              "location": "bdc_dem0_02_definitions.user_has_already_placed_an_order_for_his_favorite_item()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user tries to access the order tracking dashboard",
+            "match": {
+              "location": "bdc_dem0_02_definitions.user_tries_to_access_the_order_tracking_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "identifies the state of the order",
+            "match": {
+              "location": "bdc_dem0_02_definitions.identifies_the_state_of_the_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "BDC validation on demowebshop",
+    "description": "",
+    "id": "bdc-validation-on-demowebshop",
+    "keyword": "Feature",
+    "uri": "features99/bdc_dem0_02.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Users chice to opt for an account",
+        "description": "",
+        "id": "guest-user-actions-in-demo-webshop;users-chice-to-opt-for-an-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 110600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user access the signup page",
+            "match": {
+              "location": "bdc_demo_01_definitions.user_access_the_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "gets the credentials",
+            "match": {
+              "location": "bdc_demo_01_definitions.gets_the_credentials()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Guest user actions in Demo WebShop",
+    "description": "",
+    "id": "guest-user-actions-in-demo-webshop",
+    "keyword": "Feature",
+    "uri": "features99/bdc_demo_01.feature",
+    "tags": []
+  }
+]
